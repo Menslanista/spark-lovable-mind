@@ -2,6 +2,9 @@ import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import CapabilitiesSection from "@/components/CapabilitiesSection";
 import PlaygroundSection from "@/components/PlaygroundSection";
+import AdvancedFeatures from "@/components/AdvancedFeatures";
+import InteractiveCodeEditor from "@/components/InteractiveCodeEditor";
+import SmartSearchInterface from "@/components/SmartSearchInterface";
 
 const Index = () => {
   return (
@@ -9,6 +12,9 @@ const Index = () => {
       <Navigation />
       <HeroSection />
       <CapabilitiesSection />
+      <AdvancedFeatures />
+      <InteractiveCodeEditor />
+      <SmartSearchInterface />
       <PlaygroundSection />
       
       {/* Footer */}
