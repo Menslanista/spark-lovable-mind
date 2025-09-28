@@ -47,6 +47,16 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Advanced AI Design Tokens
+        'ai-glow': "hsl(var(--ai-glow))",
+        'ai-glow-soft': "hsl(var(--ai-glow-soft))",
+        'electric': "hsl(var(--electric))",
+        'electric-dim': "hsl(var(--electric-dim))",
+        'surface-elevated': "hsl(var(--surface-elevated))",
+        'surface-subtle': "hsl(var(--surface-subtle))",
+        'text-primary': "hsl(var(--text-primary))",
+        'text-secondary': "hsl(var(--text-secondary))",
+        'text-muted': "hsl(var(--text-muted))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,6 +72,20 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        'gradient-ai': 'var(--gradient-ai)',
+        'gradient-surface': 'var(--gradient-surface)',
+        'gradient-subtle': 'var(--gradient-subtle)',
+      },
+      boxShadow: {
+        'ai': 'var(--shadow-ai)',
+        'elevated': 'var(--shadow-elevated)',
+        'subtle': 'var(--shadow-subtle)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'var(--transition-smooth)',
+        'bounce': 'var(--transition-bounce)',
       },
       keyframes: {
         "accordion-down": {
